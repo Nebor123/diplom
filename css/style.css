@@ -1,0 +1,25 @@
+.contaner {
+	max-width: 1170px;
+	margin: 0 auto;
+	height: auto;
+}
+header {
+	background-color: gray;
+	line-height: 48px;
+	/*text-align: right;*/
+	padding: 22px 0;
+}
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+	float: left;
+	width: 50px;
+}
+.menu {
+	float: right;
+}
+.menu-items {
+	display: inline-block;
+	/*height: 34px;
+	vertical-align: middle;
+}*/

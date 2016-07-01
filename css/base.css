@@ -4,3 +4,19 @@
 	display: table;
 	overflow: hidden;
 }
+.menu-base-text-style {
+	width: 770px;
+	height: 10px;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #868686;
+	padding: 12px 21px;
+
+}
+.menu-base-text-style:hover {
+	color: white;
+	background-color: #ffbb42;
+	border-radius: 2px;
+}
