@@ -4,7 +4,7 @@
 	height: auto;
 }
 header {
-	background-color: gray;
+	background-color: white;
 	line-height: 48px;
 	/*text-align: right;*/
 	padding: 22px 0;
@@ -17,9 +17,17 @@ header {
 }
 .menu {
 	float: right;
+	vertical-align: middle;
+	font-size: 0;
+}
+.menu ul li {
+	vertical-align: middle;
+	line-height: 34px;
 }
 .menu-items {
 	display: inline-block;
-	/*height: 34px;
-	vertical-align: middle;
-}*/
+}
+.boost-up {
+	background-color: #709dca;
+	min-height: 589px;
+}

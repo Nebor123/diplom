@@ -5,16 +5,18 @@
 	overflow: hidden;
 }
 .menu-base-text-style {
-	width: 770px;
-	height: 10px;
 	font-family: Lato;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #868686;
-	padding: 12px 21px;
-
+	padding: 0 21px;
+	letter-spacing: 0px;
 }
+ul:nth-last-child(1) {
+	padding: 0 16px;
+}
+
 .menu-base-text-style:hover {
 	color: white;
 	background-color: #ffbb42;
