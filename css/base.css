@@ -10,15 +10,53 @@
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #868686;
-	padding: 0 21px;
 	letter-spacing: 0px;
 }
-ul:nth-last-child(1) {
-	padding: 0 16px;
-}
-
 .menu-base-text-style:hover {
 	color: white;
 	background-color: #ffbb42;
 	border-radius: 2px;
+}
+.title-main {
+	color: white;
+	/* line-height: 24px; */
+	font-family: 'Gothambold';
+	font-size: 35px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.title-main-text {
+	color: white;
+	line-height: 24px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 300;
+}
+.heder-forma__items-text {
+	color: darkgrey;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 400;
+}
+.button__text {
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.title-all {
+	color: #394b50;
+	font-family: 'Gothambold';
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.title-all-text {
+	color: #394b50;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
 }

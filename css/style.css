@@ -2,6 +2,7 @@
 	max-width: 1170px;
 	margin: 0 auto;
 	height: auto;
+	text-align: center;
 }
 header {
 	background-color: white;
@@ -26,8 +27,132 @@ header {
 }
 .menu-items {
 	display: inline-block;
+	padding: 0 21px;
 }
-.boost-up {
+.header-top {
 	background-color: #709dca;
 	min-height: 589px;
+	padding-top: 110px;
+	position: relative;
+}
+.heder-forma {
+	margin: 25px 0 60px;
+	display: inline-block;
+	font-size: 0;
+}
+.heder-forma__items {
+    width: 281px;
+	height: 46px;
+	background-color: white;
+	border-radius: 2px 1px 1px 2px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	padding-left: 41px;
+    box-sizing: border-box;
+    z-index: 1;
+    /* position: relative; */
+}
+.heder-forma__items--name-icon {
+	background-image: url("");
+}
+/* .heder-forma__items-text {
+	color: darkgrey;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 400;
+} */
+/* ::-webkit-input-placeholder {
+	color: red;
+} */
+
+.button {
+	width: 211px;
+	height: 46px;
+	background-color: #ffbb42;
+	border-radius: 2px;
+	display: inline-block;
+	line-height: 46px;
+	margin: 5px;
+}
+.button:hover {
+    background-color: #ebb023;
+}
+/* .button__text {
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	vertical-align: middle;
+} */
+.header-top__slider {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: -61px;
+}
+.header-top__slider-telik {
+	width: 647px;
+	height: 343px;
+	/* box-shadow: -1.3px -1.5px 0 rgba(255, 255, 255, 0.4); */
+	background-image: url("../pic/telik.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	margin: 0 auto;
+}
+.header-top__slider-telik--ekran {
+	width: 445px;
+	height: 264px;
+	background-color: #475459;
+	position: absolute;
+    top: 19px;
+    margin-right: -223px;
+    right: 50%;
+}
+label {
+	position: relative;
+    cursor: none;
+}
+.fa-user {
+	z-index: 10;
+	color: #6e6e6e;
+	font-size: 16px !important;
+	font-weight: 400;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+.our-services {
+	padding-top: 200px;
+}
+.col-2 {
+	/* padding: 0 30px; */
+	max-width: 1230px;
+	margin: 0 -30px;
+	padding-top: 90px;
+}
+.our-services__cols {
+	display: inline-block;
+	position: relative;
+	margin: 0 30px 80px;
+	width: 550px;
+	vertical-align: top;
+}
+.our-services__cols--text {
+	float: left;
+	margin-left: 80px;
+	text-align: left; 
+}
+.fa-clock-o {
+	float: left;
+	color: blue;
+	font-size: 50px !important;
+	position: absolute;
+	left: 0;
 }
