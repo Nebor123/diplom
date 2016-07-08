@@ -38,7 +38,7 @@
 	font-size: 13px;
 	font-weight: 400;
 }
-.button__text {
+.button-text {
 	color: white;
 	font-family: 'Open Sans';
 	font-size: 14px;
@@ -59,4 +59,20 @@
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 400;
+}
+.our-services__cols--text-title {
+	color: #394b50;
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+.our-services__cols--text-text {
+	color: #7b7b7b;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-top: 13px;
 }

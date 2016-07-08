@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <title>Diplom</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="files/owl.carousel.css">
+	<link rel="stylesheet" href="files/owl.theme.css">
+	<script src="files/jquery-1.9.1.min.js"></script>
+	<script src="files/owl.carousel.js"></script>
     <script src="https://use.fontawesome.com/decd33a575.js"></script>
 </head>
 <body>
@@ -35,21 +39,41 @@
 			<h1 class="title-main">Boost up your Local business</h1>
 			<p class="title-main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
 			<div class="heder-forma">
-				<label><i class="fa fa-user" aria-hidden="true"></i></label>
-				<input class="heder-forma__items heder-forma__items-text" placeholder="Full Name" >
-				<label for="icon"><i class="fa fa-user" aria-hidden="true"></i></label>	
-				<input class="heder-forma__items heder-forma__items-text" placeholder="Email Address">
-				<label for="icon"><i class="fa fa-user" aria-hidden="true"></i></label>
-				<input class="heder-forma__items heder-forma__items-text" placeholder="Phone Number">
-				<a class="button" href="">
-					<p class="button__text">Request a quote</p>
-				</a>		
+				<div class="heder-forma-bloks">
+					<label><i class="fa fa-user" aria-hidden="true"></i></label>
+					<input class="heder-forma__items heder-forma__items-text" placeholder="Full Name" >
+				</div>
+				<div class="heder-forma-bloks">
+					<label for="icon"><i class="fa fa-envelope" aria-hidden="true"></i></label>	
+					<input class="heder-forma__items heder-forma__items-text" placeholder="Email Address">
+				</div>
+				<div class="heder-forma-bloks">
+					<label for="icon"><i class="fa fa-phone" aria-hidden="true"></i></label>
+					<input class="heder-forma__items heder-forma__items-text" placeholder="Phone Number">
+				</div>
+				<a class="button button-text" href="">Request a quote</a>
 			</div>
 			<div class="header-top__slider">
 				<div class="header-top__slider-telik">
 					<div class="header-top__slider-telik--ekran">
-						----
+						<div id="owl-demo" class="owl-carousel owl-theme">
+							<div class="item"><img src="img/slide1.jpg" alt="The Last of us"></div>
+							<div class="item"><img src="img/slide1.jpg" alt="GTA V"></div>
+							<div class="item"><img src="img/slide1.jpg" alt="Mirror Edge"></div>
+						</div>
 					</div>
+					<script>
+						$(document).ready(function() {
+							$("#owl-demo").owlCarousel({
+						      navigation : false, 
+						      slideSpeed : 300,
+						      paginationSpeed : 400,
+						      singleItem:true,
+						      autoPlay : 2000,
+						      itemsDesktop : true
+						  	});
+						});
+					</script>
 				</div>
 			</div>
 		</div>
@@ -60,28 +84,53 @@
 			<p class="title-all-text">Lorem Ipsum is simply dummy Business industry.</p>
 			<ul class="col-2">
 				<li class="our-services__cols">
-					<i class="fa fa-clock-o " aria-hidden="true"></i>
-					<p class="our-services__cols--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique</p>
+					<i class="our-services__cols--icon our-services__cols--icon-clock" aria-hidden=""><img src="pic/icon1.png" alt=""></i>
+					<div class="our-services__cols--text">
+						<h3 class="our-services__cols--text-title">Font-Awesome Icons</h3>
+						<p class="our-services__cols--text-text">Lorem Ipsum is simply dummy text of the printing and typesetting ind
+						ustry. Lorem Ipsum has been the industry's standard dummy text ever 
+						since the 1500s, when an unknown printer.</p>
+					</div>
 				</li>
 				<li class="our-services__cols">
-					<i class="fa fa-clock-o " aria-hidden="true"></i>
-					<p class="our-services__cols--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique</p>
+					<i class="our-services__cols--icon our-services__cols--icon-bearing" aria-hidden=""><img src="pic/icon2.png" alt=""></i>
+					<div class="our-services__cols--text">
+						<h3 class="our-services__cols--text-title">Fully Responsive Design</h3>
+						<p class="our-services__cols--text-text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+					</div>
 				</li>
 				<li class="our-services__cols">
-					<i class="fa fa-clock-o " aria-hidden="true"></i>
-					<p class="our-services__cols--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique</p>
+					<i class="our-services__cols--icon our-services__cols--icon-cap" aria-hidden=""><img src="pic/icon3.png" alt=""></i>
+					<div class="our-services__cols--text">
+						<h3 class="our-services__cols--text-title">Working Contact form</h3>
+						<p class="our-services__cols--text-text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un
+						cover many web sites still in their infancy</p>
+					</div>
 				</li>
 				<li class="our-services__cols">
-					<i class="fa fa-clock-o " aria-hidden="true"></i>
-					<p class="our-services__cols--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique</p>
+					<i class="our-services__cols--icon our-services__cols--icon-rocket" aria-hidden=""><img src="pic/icon4.png" alt=""></i>
+					<div class="our-services__cols--text">
+						<h3 class="our-services__cols--text-title">Retina Ready icons here</h3>
+						<p class="our-services__cols--text-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
+						or randomised words which don't look even slightly believable.
+						 If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
+					</div>
 				</li>
 				<li class="our-services__cols">
-					<i class="fa fa-clock-o " aria-hidden="true"></i>
-					<p class="our-services__cols--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique</p>
+					<i class="our-services__cols--icon our-services__cols--icon-circle" aria-hidden=""><img src="pic/icon5.png" alt=""></i>
+					<div class="our-services__cols--text">
+						<h3 class="our-services__cols--text-title">Friendly Code</h3>
+						<p class="our-services__cols--text-text">Finibus Bonorum et Malorum" by Cicero are also reproduced in their 
+						exact original form, accompanied by English versions from the 1914 translation by H. Rackham</p>
+					</div>
 				</li>
 				<li class="our-services__cols">
-					<i class="fa fa-clock-o " aria-hidden="true"></i>
-					<p class="our-services__cols--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, similique</p>
+					<i class="our-services__cols--icon our-services__cols--icon-dolar" aria-hidden=""><img src="pic/icon6.png" alt=""></i>
+					<div class="our-services__cols--text">
+						<h3 class="our-services__cols--text-title">Flat trendy landing page Design</h3>
+						<p class="our-services__cols--text-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
+						the 1500s, when an unknown printer.</p>
+					</div>
 				</li>
 			</ul>
 			
