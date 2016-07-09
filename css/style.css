@@ -30,7 +30,6 @@ header {
 }
 .header-top {
 	background-color: #709dca;
-	/* min-height: 479px; */
 	padding-top: 110px;
 	padding-bottom: 280px;
 	position: relative;
@@ -63,9 +62,6 @@ header {
 	padding-left: 41px;
     box-sizing: border-box;
     z-index: 1;
-}
-.heder-forma__items--name-icon {
-	background-image: url("");
 }
 .button {
 	width: 211px;
@@ -103,21 +99,9 @@ header {
 	height: 262px;
 	display: inline-block;
 	margin-top: 18px;
-	margin-left: 1px;
+	margin-left: 3px;
     
 }
-/* label {
-	position: relative;
-    cursor: none;
-} */
-/* .fa-user {
-	z-index: 10;
-	color: #6e6e6e;
-	font-size: 16px !important;
-	font-weight: 400;
-	position: absolute;
-	bottom: 0;
-} */
 .our-services {
 	padding-top: 200px;
 	padding-bottom: 50px;
@@ -171,9 +155,104 @@ header {
 .owl-pagination {
 	margin-top: 80px;
 }
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 /* .owl-page {
 	width: 15px;
 	height: 15px;
 	border: 2px solid #dedfe0;
     border-radius: 50%;
 } */
+
+.about-us {
+	min-height: 623px;
+	background-color: #ffc155;
+	position: relative;
+	text-align: right;
+}
+.about-us__picture {
+	width: 50%;
+	top: 0;
+	bottom: 0;
+	background-image: url("../img/about-us-picture.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	position: absolute;
+	
+}
+.about-us__info	{
+	padding: 164px 0 174px;
+	width: 50%;
+	text-align: left;
+	float: right;
+}
+.about-us__info-contaner {
+	padding-left: 80px;
+}
+.about-us__info--button {
+	width: 145px;
+	height: 46px;
+	border: 1px solid #e7ad48;
+	border-radius: 2px;
+	line-height: 46px;
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+}
+.about-us__info--button:hover {
+	border: 3px solid #e7ad48;
+	line-height: 42px;
+}	
+
+/* Choos your price */
+
+.price {
+	background-color: #e7edf3;
+	padding-top: 135px;
+	padding-bottom: 164px;
+}
+.price__contaner {
+	margin-top: 47px;
+	font-size: 0;
+	display: inline-block;
+	
+}
+.price__contaner__item-basic-gold {
+	width: 391px;
+	background-color: white;
+	border: 1px solid #ccd5df;
+	border-radius: 3px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 57px 31px 48px 31px;
+	z-index: 1;
+	vertical-align: middle;
+}
+.price__contaner__item-premium {
+	width: 394px;
+	background-color: #709dca;
+	border-radius: 3px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 87px 32px 78px 32px;
+	margin: 0 -3px;
+	z-index: 3;
+	vertical-align: middle;
+}
+.price__contaner--button {
+	width: 131px;
+	height: 42px;
+	background-color: #ffbb42;
+	border-radius: 2px;
+	color: white;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 42px;
+	display: inline-block;
+}

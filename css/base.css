@@ -76,3 +76,91 @@
 	line-height: 22px;
 	margin-top: 13px;
 }
+.about-us__info--title {
+	color: white;
+	font-family: 'Gothambold';
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.about-us__info--text {
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 23px;
+	margin-bottom: 28px;
+}
+.about-us__info--button-text {
+	color: white;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.price__contaner__item-font-family {
+	font-family: Lato;
+}
+.price__contaner__item--title {
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.price__contaner__item--title-basic-gold {
+	color: #818b95;
+}
+.price__contaner__item--title-premium {
+	color: white;
+}
+.price__contaner__item--price {
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.price__contaner__item--price-basic-gold {
+	color: #ffbb42;
+}
+.price__contaner__item--price-premium {
+	color: white;
+}
+.price__contaner__item--price-per-month {
+	font-size: 20px;
+	font-weight: 300;
+	font-variant: small-caps;
+}
+.price__contaner__item--price-per-month-basic-gold {
+	color: #818b95;
+}
+.price__contaner__item--price-per-month-premium {
+	color: white;
+}
+/* .price__contaner__item--price-dolar {
+	font-size: 60px;
+	text-transform: uppercase;
+} */
+.price__contaner__item--price-dolar-basic-gold {
+	/* color: #ffbb42; */
+	/* font-weight: 700; */
+}
+.price__contaner__item--price-dolar-premium {
+	color: white;
+	font-weight: 300;
+}
+.price__contaner__item--tariff-description {
+	margin-top: 33px;
+	margin-bottom: 22px;
+}
+.price__contaner__item--tariff-description p {
+	border-top: 1px solid #e2e9f0;
+	color: #b5bbc1;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.price__contaner__item--tariff-description-premium p {
+	color: #c2e1ff;
+	border-top: 1px solid #8eb8e2;
+}
