@@ -256,3 +256,6 @@ header {
 	line-height: 42px;
 	display: inline-block;
 }
+.price__contaner--button:hover {
+    background-color: #ebb023;
+}
