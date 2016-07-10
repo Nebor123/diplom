@@ -100,8 +100,28 @@ header {
 	display: inline-block;
 	margin-top: 18px;
 	margin-left: 3px;
-    
 }
+/* scrypt */
+.owl-theme .owl-controls .owl-page span {
+	display: block !important;
+	width: 15px !important;
+	height: 15px !important;
+	margin: 0px 4px !important;
+	filter: none !important;
+	opacity: 1 !important;
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	border-radius: 50% !important;
+	background: none !important;
+	border: 2px solid #dedfe0 !important;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    filter: none !important;
+    width: 15px !important;
+	height: 15px !important;
+	border: 2px solid #1ca8dd !important;
+}
+/* scrypt */
 .our-services {
 	padding-top: 200px;
 	padding-bottom: 50px;
@@ -231,6 +251,7 @@ header {
 	padding: 57px 31px 48px 31px;
 	z-index: 1;
 	vertical-align: middle;
+	position: relative;
 }
 .price__contaner__item-premium {
 	width: 394px;
@@ -242,6 +263,7 @@ header {
 	margin: 0 -3px;
 	z-index: 3;
 	vertical-align: middle;
+	position: relative;
 }
 .price__contaner--button {
 	width: 131px;
@@ -259,3 +281,66 @@ header {
 .price__contaner--button:hover {
     background-color: #ebb023;
 }
+
+
+/* how-it-works */
+
+
+.how-it-works {
+	padding-top: 155px;
+	padding-bottom: 149px;
+}
+.how-it-works__steps-contaner {
+	margin-top: 76px;
+	display: inline-block;
+}
+.how-it-works__steps-contaner-item {
+	width: 167px;
+	display: inline-block;
+	vertical-align: top;
+}
+.how-it-works__steps-contaner-row {
+	width: 128px;
+	display: inline-block;
+	vertical-align: top;
+	height: 128px;
+}
+.how-it-works__steps__main {
+	
+}
+.how-it-works__steps__main--pic {
+	height: 128px;
+	vertical-align: middle;
+	line-height: 128px;
+}
+.how-it-works__steps__row-up {
+	vertical-align: top;
+}
+.how-it-works__steps__row-down {
+	vertical-align: top;
+	height: 128px;
+	line-height: 128px;
+}
+.how-it-works__steps__row-down img {
+	vertical-align: bottom;
+}
+.how-it-works__steps__main--text {
+	margin: 65px -23px 20px;
+}
+.how-it-works__button {
+	margin-top: 70px;
+	width: 165px;
+	height: 46px;
+	line-height: 46px;
+	background-color: #ffbb42;
+	border-radius: 2px;
+	display: inline-block;
+	color: white;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.how-it-works__button:hover {
+	background-color: #ebb023;
+}	
