@@ -92,8 +92,6 @@ header {
 	margin: 0 auto;
 }
 .header-top__slider-telik--ekran {
-	width: 445px;
-	height: 264px;
 	background-color: #475459;
     width: 444px;
 	height: 262px;
@@ -134,7 +132,7 @@ header {
 .our-services__cols {
 	display: inline-block;
 	position: relative;
-	margin: 0 30px 80px;
+	margin: 40px 30px 40px;
 	width: 552px;
 	vertical-align: top;
 }
@@ -188,7 +186,7 @@ header {
 } */
 
 .about-us {
-	min-height: 623px;
+	/* min-height: 623px; */
 	background-color: #ffc155;
 	position: relative;
 	text-align: right;
@@ -265,6 +263,9 @@ header {
 	vertical-align: middle;
 	position: relative;
 }
+.price__contaner__item-premium--adaptiv {
+	display: none;
+}
 .price__contaner--button {
 	width: 131px;
 	height: 42px;
@@ -291,8 +292,8 @@ header {
 	padding-bottom: 149px;
 }
 .how-it-works__steps-contaner {
-	margin-top: 76px;
-	display: inline-block;
+	padding-top: 76px;
+	margin: 0 auto;
 }
 .how-it-works__steps-contaner-item {
 	width: 167px;
@@ -508,4 +509,5 @@ footer {
 	background-color: #709dca;
 	line-height: 45px;
 	height: 45px;
+	
 }
