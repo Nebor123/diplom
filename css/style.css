@@ -135,7 +135,18 @@ header {
 	margin: 40px 30px 40px;
 	width: 552px;
 	vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
+.our-services__cols:hover {
+    cursor: pointer;
+    background-color: #e7edf3;
+}
+.our-services__cols:hover img{
+    transform: rotateY(360deg);
+    transition: transform 2s;
+}
+
 .our-services__cols--text {
 	float: left;
 	margin-left: 80px;
@@ -178,15 +189,7 @@ header {
     width: 100%;
     height: auto;
 }
-/* .owl-page {
-	width: 15px;
-	height: 15px;
-	border: 2px solid #dedfe0;
-    border-radius: 50%;
-} */
-
 .about-us {
-	/* min-height: 623px; */
 	background-color: #ffc155;
 	position: relative;
 	text-align: right;
@@ -200,7 +203,6 @@ header {
 	background-size: cover;
 	background-position: top center;
 	position: absolute;
-	
 }
 .about-us__info	{
 	padding: 164px 0 174px;
@@ -283,9 +285,7 @@ header {
     background-color: #ebb023;
 }
 
-
 /* how-it-works */
-
 
 .how-it-works {
 	padding-top: 155px;
@@ -346,8 +346,8 @@ header {
 	background-color: #ebb023;
 }	
 
-
 /* Happy Clients */
+
 .happy-clients {
 	background-color: #ffc155;
 	padding-top: 130px;
@@ -389,11 +389,10 @@ header {
     margin-top: -13px;
 }
 
-
 /* newsletter */
+
 .newsletter {
 	padding-top: 154px;
-	/* padding-bottom: 220px; */
 }
 .newsletter-forma {
 	border: 1px solid #cbcbcb;
@@ -448,8 +447,8 @@ header {
 	padding-top: 20px;
 }
 
-
 /* footer-menu */
+
 .footer-menu {
 	margin-top: 70px;
 	margin-bottom: 50px;
@@ -482,8 +481,6 @@ header {
 .fa-twitter {
 	color: #ffc155;
 	font-size: 18px;
-	/* font-weight: 400;
-	line-height: 25px; */
 }
 .fa-facebook {
 	color: #709dca;
@@ -503,11 +500,8 @@ header {
 .footer-menu__icons i {
 	margin: 0 8px;
 }
-
-
 footer {
 	background-color: #709dca;
 	line-height: 45px;
 	height: 45px;
-	
 }
